@@ -14,7 +14,6 @@ public class Project0 {
         System.exit(0);
       count = countE(input);
       JOptionPane.showMessageDialog(
-<<<<<<< HEAD
         null,
         "Number of lower case e's: " +
         count[0] +
@@ -22,11 +21,11 @@ public class Project0 {
         "Number of captial case E's: " +
         count[1]
       );
-      if (s1.equalsIgnoreCase(input)) System.exit(0);
-=======
+      if (stop.equalsIgnoreCase(input)) System.exit(0);
+      count = countE(input);
+      JOptionPane.showMessageDialog(
           null, "Number of lower case e's: " + count[0] + " \n" +
             "Number of upper case E's: " + count[1]);
->>>>>>> 33cf89a869c221f3aa0a2c53f5da0c3585570b73
     }
   }
 
