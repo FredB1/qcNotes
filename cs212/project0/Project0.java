@@ -4,16 +4,17 @@ import javax.swing.*;
  * Project0
  */
 public class Project0 {
-
   public static void main(String[] args) {
     while (true) {
       String input;
-      String s1 = "stop";
+      String stop = "stop";
       int[] count;
-      input =
-        JOptionPane.showInputDialog(null, "Enter a word in all lower case:");
+      input = JOptionPane.showInputDialog(null, "Enter a word in all lower case:");
+      if (stop.equalsIgnoreCase(input))
+        System.exit(0);
       count = countE(input);
       JOptionPane.showMessageDialog(
+<<<<<<< HEAD
         null,
         "Number of lower case e's: " +
         count[0] +
@@ -22,9 +23,15 @@ public class Project0 {
         count[1]
       );
       if (s1.equalsIgnoreCase(input)) System.exit(0);
+=======
+          null, "Number of lower case e's: " + count[0] + " \n" +
+            "Number of upper case E's: " + count[1]);
+>>>>>>> 33cf89a869c221f3aa0a2c53f5da0c3585570b73
     }
   }
 
+  // This function loops through the input string and counts lower and upper case
+  // e's
   public static int[] countE(String s) {
     int[] count = { 0, 0 };
     for (int i = 0; i < s.length(); i++) {
