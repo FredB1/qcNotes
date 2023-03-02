@@ -18,7 +18,7 @@ public class Project0 {
         "Number of lower case e's: " +
         count[0] +
         " \n" +
-        "Number of lower case E's: " +
+        "Number of captial case E's: " +
         count[1]
       );
       if (s1.equalsIgnoreCase(input)) System.exit(0);
