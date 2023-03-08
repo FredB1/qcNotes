@@ -27,6 +27,8 @@ public class Project1 {
                 newArr[j] = valRoman(nums[j]);
             }
         }
+        RomanANumeralGUI frame = new RomanANumeralGUI(nums, newArr, i);
+        frame.setVisible(true);
     }
 
     public static int valueOf(String s) {
