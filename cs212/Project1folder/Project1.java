@@ -1,5 +1,3 @@
-package Project1;
-
 import java.util.*;
 
 public class Project1 {
@@ -9,7 +7,7 @@ public class Project1 {
     public static String[] nums;
 
     public static void main(String[] args) {
-        myFile = new TextFileInput("Project1/input.txt");
+        myFile = new TextFileInput("./input.txt");
         line = myFile.readLine();
         String[] nums = new String[10];
         int i = 0;

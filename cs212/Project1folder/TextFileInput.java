@@ -1,5 +1,3 @@
-package Project1;
-
 // TextFileInput.java
 // Copyright (c) 2000, 2005 Dorothy L. Nixon.  All rights reserved.
 
