@@ -1,6 +1,7 @@
-package Project1;
-
 import java.util.*;
+
+import Project1.RomanANumeralGUI;
+import Project1.TextFileInput;
 
 public class Project1 {
     public static TextFileInput myFile;
